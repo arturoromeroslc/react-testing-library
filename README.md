@@ -603,7 +603,7 @@ instead of Synthetic Events. This aligns better with
 ```javascript
 import {render, cleanup, fireEvent} from 'react-testing-library'
 
-// don't forget to clean up the document.body
+// don't forget to clean up the document.body.
 afterEach(cleanup)
 
 test('clicks submit button', () => {
